@@ -13,11 +13,9 @@ def get_valid_access_token():
     if not tokens:
         raise Exception("No tokens found. Please run oauth.py first.")
 
-    # Try existing token
     access_token = tokens.get("access_token")
     refresh_token = tokens.get("refresh_token")
 
-    # If access_token is expired, refresh it
     if is_token_expired(tokens):  # you can enhance with expiry check
         print("🔁 Refreshing access token...")
         return refresh_access_token(refresh_token)
@@ -51,5 +49,5 @@ def refresh_access_token(refresh_token):
 
 
 def is_token_expired(tokens):
-    # Optional: check expires_in timestamp if available
-    return False  # Placeholder for now
+   
+    return False 
