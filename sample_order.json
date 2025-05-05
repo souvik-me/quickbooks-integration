@@ -1,0 +1,20 @@
+{
+  "customer": {
+    "DisplayName": "Rishi Smith",
+    "PrimaryEmailAddr": {
+      "Address": "rishi@fastforge.com"
+    }
+  },
+  "items": [
+    {
+      "name": "Biryani special",
+      "quantity": 1,
+      "unit_price": 49.99
+    },
+    {
+      "name": "Mutton kima",
+      "quantity": 1,
+      "unit_price": 29.99
+    }
+  ]
+}
