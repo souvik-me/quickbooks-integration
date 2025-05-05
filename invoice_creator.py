@@ -20,12 +20,12 @@ def process_invoice(order_data):
                 },
                 "Qty": item["quantity"],
                 "UnitPrice": item["unit_price"]
-                # TaxCodeRef removed
             }
         }
         line_items.append(line)
 
     print("🧾 Creating invoice...")
     invoice = create_invoice(customer, line_items)
+
     print("✅ Invoice creation complete.")
     return invoice
