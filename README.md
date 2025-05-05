@@ -7,3 +7,9 @@ This project allows you to integrate your e-commerce platform with QuickBooks fo
 - Install dependencies:
   ```bash
   pip install -r requirements.txt
+
+
+
+For test only-
+customer.py
+item.py
